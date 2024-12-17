@@ -41,7 +41,7 @@ def replace_rep(sequences,uniq_labels):
 
 def calc_bigram(sequences):
     # prob of all syls to all possible following syl
-    """ transition probability from row to col
+    """ transition probability from row to col - shold be just frequency
     Row (in forcus)
                a     b     c     d     f    col
            ------------------------------
@@ -56,7 +56,7 @@ def calc_bigram(sequences):
 
 def calc_trigram(sequences):
      # prob of all syls to all possible following syl and depending on before syl
-         """ transition probability from row syl to col-depth sequence - incorrect
+         """ transition probability from row syl to col-depth sequence - shold be just frequency
               
          Depth
                 c/==.... ==....==....==....==.
