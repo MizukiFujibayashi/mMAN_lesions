@@ -107,7 +107,8 @@ def chunk_extraction(sequences):
                      a     c     d     k     j    syllabels matters (>0.01)
         Row     ------------------------------
         T     |  ==.... ==....==....==....==. Frequency (distrib following T)
-        
+                            
+                            Depth
                      a     c     d     k     j    syllabels matters (>0.01)
         RowCol   ------------------------------
         PT     |  ==.... ==....==....==....==. Frequency (distrib following PT)
@@ -134,7 +135,8 @@ def chunk_extraction(sequences):
                         a     c     d     k     j    syllabels matters? how were they selected
         RowCol       ------------------------------
         T1 (= P1T)  |  ==.... ==....==....==....==. Frequency (distrib following T1 specified by its preceeding syllable P1)
-        
+                                
+                                Depth
                         a     c     d     k     j    syllabels matters? how were they selected
         RowCol       ------------------------------
         T2 (= P2T)  |  ==.... ==....==....==....==. Frequency (distrib following T2 specified by its preceeding syllable P2)
